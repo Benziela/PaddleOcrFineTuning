@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: lanms-neo
+Version: 1.0.2
+Summary: Standalone Locality-Aware NMS module.
+Home-page: https://github.com/gen-ko/lanms-neo
+Author: gen-ko
+Author-email: yuanl5@alumni.cmu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+# lanms-neo
+Implements Locality-Aware NMS from [EAST](https://github.com/argman/EAST) that may be used across other frameworks like [mmocr](https://github.com/open-mmlab/mmocr).
+
+## Install
+`pip install lanms-neo`
+
+## Use
+```python
+from lanms import merge_quadrangle_n9 as la_nms
+```
+
